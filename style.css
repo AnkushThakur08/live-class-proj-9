@@ -326,7 +326,7 @@ span {
   }
 
   header {
-    width: 610px;
+    /* width: 610px; */
   }
 
   .header-text > h2 {
@@ -343,7 +343,7 @@ span {
   }
 
   .company-items {
-    font-size: 25px;
+    font-size: 17px !important;
   }
 
   /* CARD API */
@@ -354,7 +354,7 @@ span {
   }
 
   .card-logo {
-    width: 60px;
+    width: 50px !important;
   }
 
   .card-logo + h3 {
@@ -363,7 +363,7 @@ span {
 
   .card-body {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 15px !important;
   }
 
   /* BLOG */
@@ -371,37 +371,40 @@ span {
   .blog-cards {
     display: flex;
     flex-direction: column;
-    width: 100%;
     justify-content: space-between;
   }
 
   .blog-card {
-    margin-right: 0;
     margin-top: 40px;
   }
 
   .blog-image {
-    width: 190px;
+    width: 200px !important;
   }
 
   .blog-content {
-    width: 100%;
-    margin-right: -100px;
+    padding-bottom: 0px !important;
+  }
+
+  .blog-content > h6 {
+    margin-top: -10px !important;
+    font-size: 14px !important;
   }
 
   .blog-content > h3 {
-    font-size: 20px;
+    font-size: 14px !important;
+    margin-top: 20px !important;
+    line-height: 20px;
+    margin-bottom: 10px !important;
   }
 
   .blog-content > small {
-    font-size: 14px;
+    margin-top: -20px !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
   }
 
   /* FAQ */
-
-  .faq-section {
-    width: 610px;
-  }
 
   .faq-content > h4 {
     font-size: 12px;
@@ -412,18 +415,13 @@ span {
 
   /* DOWNLOAD */
   .download-section {
-    width: 610px;
     display: flex;
     flex-direction: column;
   }
 
-  form {
-    width: 610px;
-  }
-
   .download-email > form > input {
     margin-top: 30px;
-    width: 400px;
+    width: 250px !important;
   }
 
   .download-email > form > button {
@@ -449,13 +447,13 @@ span {
   }
 }
 
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
   .download-email > form > button {
     position: absolute;
     top: 677.5%;
     right: -135px;
   }
-}
+} */
 
 @media screen and (max-width: 768px) {
   nav > a {
