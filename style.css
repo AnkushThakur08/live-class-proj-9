@@ -1,0 +1,586 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  outline: 0;
+  border: 0;
+}
+
+/* TODO: NavBar */
+body {
+  background-color: #f8f8fa;
+}
+
+header {
+  background-color: #4516fe;
+  height: 500px;
+}
+
+nav {
+  float: right;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.nav-item {
+  color: #ffffff;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.nav-item-active {
+  color: #4516fe;
+  padding: 5px 15px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.logo {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+/*TODO: HEADER */
+.header-text > img {
+  margin-top: 90px;
+  margin-left: 40px;
+}
+
+.header-text > h2 {
+  margin-left: 40px;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.header-text > p {
+  margin-left: 40px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.header-image {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  width: 650px;
+}
+
+.companies {
+  display: flex;
+}
+.company-items {
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 5px 20px;
+  font-family: "Righteous", "sans serif";
+  font-size: 30px;
+  color: #000000;
+  text-decoration: none;
+}
+
+/*TODO: API CARD SECTION */
+
+.api-heading {
+  margin-top: 80px;
+  margin-left: 40px;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 35px;
+  border-radius: 15px;
+}
+
+.card-active {
+  background-color: #ffffff;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 0 40px 10px #f2f2f2;
+}
+
+.card-head-active {
+  color: #4516fe;
+}
+
+.card {
+  padding: 40px;
+}
+
+.card-body {
+  font-size: 15px;
+}
+
+.card-head {
+  font-size: 20px;
+}
+.card-logo {
+  margin-bottom: 20px;
+}
+
+/*TODO: BLOG */
+.blog-heading {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.blog-cards {
+  display: flex;
+  margin-left: 40px;
+}
+
+.blog-card {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 40px 10px #f2f2f2;
+  border-radius: 50px;
+  margin-right: 50px;
+}
+
+.blog-image > img {
+  width: 300px;
+}
+
+.blog-content {
+  background-color: #ffffff;
+  padding: 40px;
+  width: 300px;
+}
+
+.blog-content > h6 {
+  color: #4516fe;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.blog-content > h3 {
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 33px;
+  margin-bottom: 30px;
+}
+
+.blog-content > small {
+  font-size: 15px;
+}
+
+.blog-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-card-bottom-image {
+  position: absolute;
+  top: 1680px;
+  left: 500px;
+}
+
+.blog-author {
+  margin-top: 400px;
+}
+
+/* FAQ Section */
+.faq-section {
+  margin-top: 80px;
+  background-color: #e9edff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-content > h2 {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: "Poppins";
+  font-weight: 900;
+}
+
+.faq-content > h4 {
+  margin-left: 40px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #5d5e66;
+}
+
+.blackColor {
+  color: #000000 !important;
+}
+
+.faq-content > button {
+  background-color: #4516fe;
+  color: #ffffff;
+  margin-left: 40px;
+  padding: 10px 30px;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+
+.faq-image {
+  width: 600px;
+}
+
+/* DOWNLOAD */
+.download-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 40px;
+  margin-bottom: 100px;
+}
+
+span {
+  font-weight: 100;
+}
+
+.download-email {
+  margin-right: 200px;
+}
+
+.download-email > form > input {
+  background-color: #e9edff;
+  padding: 20px 40px;
+  border-radius: 50px;
+  color: #000000;
+  width: 600px;
+}
+
+.download-email > form > button {
+  background-color: #4516fe;
+  padding: 15px 40px;
+  border-radius: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  font-weight: 600;
+}
+
+/* FOOTER LEFT*/
+.footer-section {
+  background-color: #4719fe;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.footer-left {
+  margin-top: 60px;
+  margin-left: 40px;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  color: #ffffff;
+  margin-left: -60px;
+  margin-top: 20px;
+}
+
+.list-items {
+  padding: 5px 20px;
+}
+
+/* FOOTER RIGHT*/
+.footer-right {
+  margin-top: 30px;
+}
+
+.footer-rights {
+  margin-right: 40px;
+}
+
+.footer-logos {
+  padding: 0px 20px;
+}
+
+.logos-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+}
+
+.list-items {
+  color: #ffffff;
+}
+
+/* MOBILE Responsive */
+@media screen and (max-width: 576px) {
+  nav {
+    display: none;
+  }
+
+  header {
+    width: 610px;
+  }
+
+  .header-text > h2 {
+    font-size: 30px;
+  }
+
+  .header-text > p {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .header-image {
+    display: none;
+  }
+
+  .company-items {
+    font-size: 25px;
+  }
+
+  /* CARD API */
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-logo {
+    width: 60px;
+  }
+
+  .card-logo + h3 {
+    font-size: 30px;
+  }
+
+  .card-body {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  /* BLOG */
+
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .blog-card {
+    margin-right: 0;
+    margin-top: 40px;
+  }
+
+  .blog-image {
+    width: 190px;
+  }
+
+  .blog-content {
+    width: 100%;
+    margin-right: -100px;
+  }
+
+  .blog-content > h3 {
+    font-size: 20px;
+  }
+
+  .blog-content > small {
+    font-size: 14px;
+  }
+
+  /* FAQ */
+
+  .faq-section {
+    width: 610px;
+  }
+
+  .faq-content > h4 {
+    font-size: 12px;
+  }
+  .faq-image {
+    display: none;
+  }
+
+  /* DOWNLOAD */
+  .download-section {
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {
+    width: 610px;
+  }
+
+  .download-email > form > input {
+    margin-top: 30px;
+    width: 400px;
+  }
+
+  .download-email > form > button {
+    position: absolute;
+    top: 634.5%;
+    right: -90px;
+  }
+
+  /* FOOTER */
+  .footer-section {
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-right {
+    margin-left: 20px;
+  }
+
+  .logos-list {
+    margin: 0;
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .download-email > form > button {
+    position: absolute;
+    top: 677.5%;
+    right: -135px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav > a {
+    font-size: 13px;
+  }
+
+  .header-text {
+    margin-top: 50px;
+  }
+
+  .header-text > h2 {
+    font-size: 20px;
+  }
+
+  .header-text > p {
+    margin-top: 20px;
+    font-size: 11px;
+  }
+
+  .header-image {
+    margin-top: 75px;
+    width: 420px;
+  }
+
+  .company-items {
+    font-size: 25px;
+  }
+
+  /* CARD API */
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-logo {
+    width: 60px;
+  }
+
+  .card-logo + h3 {
+    font-size: 30px;
+  }
+
+  .card-body {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+
+  /* BLOG */
+
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    justify-content: space-between;
+  }
+
+  .blog-card {
+    margin-right: 0;
+    margin-top: 40px;
+  }
+
+  .blog-image {
+    width: 350px;
+  }
+
+  .blog-content {
+    width: 100%;
+  }
+
+  .blog-content > h3 {
+    font-size: 20px;
+  }
+
+  .blog-content > small {
+    font-size: 14px;
+  }
+
+  /* FAQ */
+
+  .faq-content > h4 {
+    font-size: 12px;
+  }
+  .faq-image > img {
+    height: 250px;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 50px;
+    /* display: none; */
+  }
+
+  /* DOWNLOAD */
+  .download-section {
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {
+    width: 610px;
+  }
+
+  .download-email > form > input {
+    margin-top: 30px;
+    width: 400px;
+  }
+
+  .download-email > form > button {
+    position: absolute;
+    top: 646%;
+    right: 250px;
+  }
+
+  /* FOOTER */
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-right {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+  .logos-list {
+    margin: 0;
+    width: 250px;
+  }
+}
